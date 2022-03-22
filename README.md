@@ -1,4 +1,4 @@
-# eller-resume-v2
+# eller-fromt-end-resume
 
 ## Project setup
 ```
