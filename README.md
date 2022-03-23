@@ -20,9 +20,5 @@ yarn build
 yarn lint
 ```
 
-### Literally trying anything
-permalink: /index.html
-```
-
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
