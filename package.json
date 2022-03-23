@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
-    "build": "tsc"
+    "build": "vue-cli-service build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@vue/composition-api": "1.4.6",
