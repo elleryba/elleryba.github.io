@@ -4,7 +4,7 @@
 set -e
 
 # build
-npm run build
+yarn build && move build docs
 
 # navigate into the build output directory
 cd docs
