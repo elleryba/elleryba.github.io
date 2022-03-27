@@ -7,7 +7,7 @@
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build",
     "predeploy": "yarn build",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "deploy": "yarn deploy"
   },
   "dependencies": {
     "@vue/composition-api": "1.4.6",
