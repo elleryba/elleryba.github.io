@@ -38,7 +38,11 @@
 
     <v-main>
       <v-container class="d-flex justify-center">
-        <AboutMe />
+        <v-col cols="12">
+          <AboutMe />
+          <TechnicalExperience />
+          <PersonalInfo />
+        </v-col>
       </v-container>
     </v-main>
 
@@ -51,7 +55,9 @@ import AboutMe from '@/components/AboutMe.vue'
 import EmailInfo from '@/components/EmailInfo.vue'
 import GitHubInfo from '@/components/GitHubInfo.vue'
 import LinkedInInfo from '@/components/LinkedInInfo.vue'
+import PersonalInfo from '@/components/PersonalInfo.vue'
 import PhoneInfo from '@/components/PhoneInfo.vue'
+import TechnicalExperience from '@/components/TechnicalExperience.vue'
 import ThemeChanger from '@/components/ThemeChanger.vue'
 
 export default Vue.extend({
@@ -61,8 +67,10 @@ export default Vue.extend({
     EmailInfo,
     GitHubInfo,
     LinkedInInfo,
+    PersonalInfo,
     PhoneInfo,
-    ThemeChanger,
+    TechnicalExperience,
+    ThemeChanger
   },
   data: () => ({
     //

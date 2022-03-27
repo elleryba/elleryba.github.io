@@ -1,72 +1,47 @@
 <template>
-  <div>
-    <v-row
-        no-gutters
-        style="height: 150px;"
+  <v-row dense>
+    <div v-if="isLoading">
+      <SkeletonLoader />
+    </div>
+    <v-card
+      v-else
+      class="my-auto mx-auto"
+      max-width="500"
+      height="650"
+      elevation="5"
     >
-      <div v-if="isLoading">
-        <SkeletonLoader />
-      </div>
-      <v-card
-        v-else
-        class="my-4 mx-4"
-        max-width="500"
-        height="650"
-        elevation="5"
-      >
-        <v-img
-          max-height="350"
-          :src="profilePic"
-        ></v-img>
+      <v-img
+        class="primary"
+        contain
+        max-height="350"
+        :src="profilePic"
+      ></v-img>
+      <v-card-title>Elle Ryba</v-card-title>
 
-        <v-card-title>Elle Ryba</v-card-title>
-
-        <v-card-text>
-          <v-row
-            align="center"
-            class="mx-0 my-0"
-          >
-            <div class="text-subtitle-1">
-              Front-end only resume
-            </div>
-          </v-row>
-          <v-row class="my-2 mx-0">
-            <div align="left" class="text-subtitle-3">
-              This project started as front-end only resume app to help refine my skills. I have now built
-              out a full stack project with data being served up to the client from Sql Server via a RESTful
-              api. The code for that version of this project can be found <a target="blank" href="https://github.com/elleryba/vuetify-resume">here</a>.
-              I am now researching how I can deploy the full stack version. While I learn, I have created this front-end
-              only version to deploy via Github Pages.
-            </div>
-          </v-row>
-        </v-card-text>
-
-        <v-divider class="mx-4"></v-divider>
-
-        <Resume />
-
-      </v-card>
-      <v-row
-        no-gutters
-        style="height: 150px;"
-      >
-        <div v-if="isLoading">
-          <SkeletonLoader />
-        </div>
-        <v-card
-          v-else
-          color="primary"
-          class="my-4 mx-4"
-          max-width="500"
-          height="650"
-          elevation="5"
+      <v-card-text>
+        <v-row
+          align="center"
+          class="mx-0 my-0"
         >
-          <TechnicalExperience />
-          <PersonalInfo />
-        </v-card>
-      </v-row>
-    </v-row>
-  </div>
+          <div class="text-subtitle-1">
+            Front-end only resume
+          </div>
+        </v-row>
+        <v-row class="my-2 mx-0">
+          <div align="left" class="text-subtitle-3">
+            This project started as front-end only resume app to help refine my skills. I have now built
+            out a full stack project with data being served up to the client from Sql Server via a RESTful
+            api. The code for that version of this project can be found <a target="blank" href="https://github.com/elleryba/vuetify-resume">here</a>.
+            I have created this front-end only version to deploy via Github Pages. I am now in the process of researching
+            responsive design, so I can make this page mobile-friendly.
+          </div>
+        </v-row>
+      </v-card-text>
+
+      <v-divider class="mx-4"></v-divider>
+      <Resume />
+    </v-card>
+  </v-row>
 </template>
 
 <script lang="ts">
@@ -116,7 +91,7 @@ export default defineComponent({
     }
   },
   data: () => ({
-    profilePic: require('../assets/profile_pic.png')
+    profilePic: require('../assets/pfp.png')
   })
 })
 </script>
