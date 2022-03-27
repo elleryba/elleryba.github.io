@@ -1,5 +1,5 @@
 <template>
-  <v-app :style="{ background: $vuetify.theme.themes[theme].background }">
+  <v-app>
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
         <v-icon size="28" color="background"
