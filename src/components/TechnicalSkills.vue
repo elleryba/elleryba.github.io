@@ -15,6 +15,7 @@
         v-if="isTechStackDisplayed"
         class="transition-fast-in-fast-out v-card--reveal scroll"
         style="height: 100%;"
+        color="primary"
       >
         <v-card-text class="pb-0">
           <p v-for="s in skills" :key="s">{{s}}</p>

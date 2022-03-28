@@ -1,6 +1,5 @@
 <template>
-  <v-row>
-    <v-col>
+  <v-row class="pa-2">
       <SkeletonLoader v-if="isLoading"/>
       <v-card
         v-else
@@ -14,7 +13,7 @@
             <div class="text-subtitle-1">A Day in the Life...</div>
           </v-row>
           <v-row class="my-2 mx-0">
-            <div align="left" class="text-subtitle-3">
+            <div align="left" class="text-subtitle-3 my-2">
               <p>In my personal time I am playing through the
               <a
                 href="https://www.ea.com/games/mass-effect/mass-effect-legendary-edition"
@@ -27,12 +26,16 @@
               >
                 Xbox Game Pass</a>. Happy to report I have finished the first two games, 
                 and I am working through the third.</p>
-               <p>I am also working on this resume project, which I hope is obvious.</p>
+                <p>I am also playing the latest
+                <a
+                  href="https://www.nintendo.com/store/products/kirby-and-the-forgotten-land-switch/"
+                  target="_blank"
+                >
+                Kirby</a> game on the Nintendo Switch.</p>
             </div>
           </v-row>
         </v-card-text>
       </v-card>
-    </v-col>
   </v-row>
 </template>
 

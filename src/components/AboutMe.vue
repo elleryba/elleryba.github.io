@@ -1,5 +1,5 @@
 <template>
-  <v-row dense>
+  <v-row class="pa-2">
     <SkeletonLoader v-if="isLoading"/>
     <v-card
       v-else
@@ -27,11 +27,9 @@
         </v-row>
         <v-row class="my-2 mx-0">
           <div align="left" class="text-subtitle-3">
-            This project started as front-end only resume app to help refine my skills. I have now built
-            out a full stack project with data being served up to the client from Sql Server via a RESTful
-            api. The code for that version of this project can be found <a target="blank" href="https://github.com/elleryba/vuetify-resume">here</a>.
-            I have created this front-end only version to deploy via Github Pages. I am now in the process of researching
-            responsive design, so I can make this page mobile-friendly.
+            I have created this front-end only version of my resume app to deploy via Github Pages.
+            This app was built using Vue 2 and Vuetify. A full-stack version with data being served up to the client from Sql Server via RESTful
+            api can be found <a target="blank" href="https://github.com/elleryba/vuetify-resume">here</a>.
           </div>
         </v-row>
       </v-card-text>
