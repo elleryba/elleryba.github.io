@@ -1,6 +1,5 @@
 <template>
-  <v-row>
-    <v-col>
+  <v-row class="pa-2">
       <SkeletonLoader v-if="isLoading"/>
       <v-card
         v-else
@@ -22,7 +21,6 @@
         <v-divider class="mx-4"></v-divider>
         <TechnicalSkills />
       </v-card>
-    </v-col>
   </v-row>
 </template>
 
