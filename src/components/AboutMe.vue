@@ -1,16 +1,14 @@
 <template>
   <v-row dense>
-    <div v-if="isLoading">
-      <SkeletonLoader />
-    </div>
+    <SkeletonLoader v-if="isLoading"/>
     <v-card
       v-else
       class="my-auto mx-auto"
       max-width="500"
-      height="650"
       elevation="5"
     >
       <v-img
+        v-if="this.$vuetify.breakpoint.mdAndUp"
         class="primary"
         contain
         max-height="350"
@@ -47,13 +45,12 @@
 <script lang="ts">
 import { isEmpty } from 'lodash'
 import { computed, defineComponent, ref } from '@vue/composition-api'
-import PersonalInfo from '@/components/PersonalInfo.vue'
+
 import Resume from '@/components/Resume.vue'
 import SkeletonLoader from '@/components/SkeletonLoader.vue'
-import TechnicalExperience from '@/components/TechnicalExperience.vue'
 import store from '@/store'
-import { JobItemInterface } from '@/store/modules/resume/types'
 import { ResumeGetters } from '@/store/modules/resume/getters'
+import { JobItemInterface } from '@/store/modules/resume/types'
 import { TechnicalExperienceGetters } from '@/store/modules/technical-experience/getters'
 import { TechnicalExperienceInterface } from '@/store/modules/technical-experience/types'
 import { TechnicalSkillGetters } from '@/store/modules/technical-skills/getters'
@@ -62,10 +59,8 @@ import { TechnicalSkillInterface } from '@/store/modules/technical-skills/types'
 export default defineComponent({
   name: 'AboutMe',
   components: {
-    PersonalInfo,
     Resume,
-    SkeletonLoader,
-    TechnicalExperience
+    SkeletonLoader
   },
   setup() {
     const alignments = [ 'start', 'center', 'end' ]
@@ -91,7 +86,7 @@ export default defineComponent({
     }
   },
   data: () => ({
-    profilePic: require('../assets/pfp.png')
+    profilePic: require('@/assets/pfp.png')
   })
 })
 </script>

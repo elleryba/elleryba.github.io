@@ -58,6 +58,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, ref } from '@vue/composition-api'
+
 import { useJsDateFormatter } from '@/composables/dates'
 import store from '@/store'
 import { ResumeActions } from '@/store/modules/resume/actions'

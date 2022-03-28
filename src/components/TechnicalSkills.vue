@@ -35,6 +35,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, ref } from '@vue/composition-api'
+
 import store from '@/store'
 import { TechnicalSkillActions } from '@/store/modules/technical-skills/actions'
 import { TechnicalSkillGetters } from '@/store/modules/technical-skills/getters'
@@ -58,7 +59,7 @@ export default defineComponent({
       flipTechStackDisplay,
       skills
     }
-  },
+  }
 })
 </script>
 
