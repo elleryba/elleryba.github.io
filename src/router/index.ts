@@ -14,7 +14,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   base: '/',
-  routes,
+  routes
 })
 
 export default router
