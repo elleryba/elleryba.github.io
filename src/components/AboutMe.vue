@@ -76,6 +76,8 @@ export default defineComponent({
         isLoading.value = false, 2000)
     }
 
+    console.info('+1 wisdom for inspecting the console')
+
     loadingCheck()
 
     return {
