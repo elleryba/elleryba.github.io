@@ -29,7 +29,7 @@ export const actions: ActionTree<TechnicalExperienceStoreInterface, RootState> =
   },
   setTechnicalExperience({ commit }) {
     const data = { 
-      items: ['Engineered a back-end microservice framework within multiple domain driven apis. Full-stack project. Involved in all aspects of development. Responsible for maintaining and refining code as well as interpreting user stories to build out new features. Worked closely with testers to resolve bugs as they were reported.' 
+      items: ['Engineered a microservice framework within multiple domain driven apis. Full-stack project. Involved in all aspects of development. Responsible for maintaining and refining code as well as interpreting user stories to build out new features. Worked closely with testers to resolve bugs as they were reported.' 
       ]} as TechnicalExperienceInterface
     commit(TechnicalExperienceMutations.SET_SKILLS, { items: data.items })
   }
