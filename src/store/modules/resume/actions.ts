@@ -62,7 +62,7 @@ export const actions: ActionTree<ResumeStoreInterface, RootState> = {
                   'Create composables for code reusability without violating DRY principles',
                   'Ensure a positive, consistent user experience throughout each page',
                   'Locally test all code changes',
-                  'Debug via Console, Network, and Vue.js devtools',
+                  'Debug via devtools',
                   'Complete integration testing across domain apis, and full-stack testing from the front-end to back-end',
                   'Make revisions to eliminate errors prior to QA review',
                   'Work with the business to obtain approval for changes made to the project',
