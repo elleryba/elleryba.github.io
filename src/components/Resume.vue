@@ -23,7 +23,7 @@
           elevation="5"
           v-for="item in resumeData" :key="item.id"
         >
-          <v-card-title>{{ item.companyName }}</v-card-title>
+          <v-card-title class="company">{{ item.companyName }}</v-card-title>
           <v-card-text>
             <v-row align="center" class="mx-0 my-0">
               <div class="text-subtitle-1">
@@ -96,5 +96,8 @@ export default defineComponent({
 }
 .scroll {
   overflow-y: scroll;
+}
+.company {
+  word-break: break-word;
 }
 </style>
