@@ -14,24 +14,26 @@
           </v-row>
           <v-row class="my-2 mx-0">
             <div align="left" class="text-subtitle-3 my-2">
-              <p>In my personal time I am playing through the
-              <a
-                href="https://www.ea.com/games/mass-effect/mass-effect-legendary-edition"
-                target="_blank"
-              >
-                Mass Effect</a> trilogy via
-              <a
-                href="https://www.xbox.com/en-US/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0"
-                target="_blank"
-              >
-                Xbox Game Pass</a>. Happy to report I have finished the first two games, 
-                and I am working through the third.</p>
-                <p>I am also playing the latest
+              <p>I have recently completed a playthrough of the
                 <a
-                  href="https://www.nintendo.com/store/products/kirby-and-the-forgotten-land-switch/"
+                  href="https://www.ea.com/games/mass-effect/mass-effect-legendary-edition"
                   target="_blank"
                 >
-                Kirby</a> game on the Nintendo Switch.</p>
+                  Mass Effect</a> trilogy via
+                <a
+                  href="https://www.xbox.com/en-US/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0"
+                  target="_blank"
+                >
+                  Xbox Game Pass</a>. I'm now taking a break from narrative games and playing 
+                  Destiny 2. Soon enough, I'll move to 
+                <a
+                  href="https://www.xbox.com/en-US/games/store/marvels-guardians-of-the-galaxy/9pgll77c201j"
+                  target="_blank"
+                >
+                  Marvel's Guardians of the Galaxy
+                </a>
+                  .
+              </p>
             </div>
           </v-row>
         </v-card-text>

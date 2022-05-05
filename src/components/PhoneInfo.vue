@@ -31,13 +31,13 @@ export default {
   data(): { menu: boolean; phoneNumber: string } {
     return {
       menu: false,
-      phoneNumber: 'XXX-XXX-XXXX',
+      phoneNumber: 'XXX-XXX-XXXX', //dont want to actually display my phone # in plain text
     }
   },
   methods: {
     // add notification to user that action was completed
     copyPhoneNumber(): void {
-      navigator.clipboard.writeText('216-379-9501')
+      navigator.clipboard.writeText('216-309-0166')
     }
   }
 }
