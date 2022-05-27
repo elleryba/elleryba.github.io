@@ -25,14 +25,14 @@
                   target="_blank"
                 >
                   Xbox Game Pass</a>. I'm now taking a break from narrative games and playing 
-                  Destiny 2. Soon enough, I'll move to 
-                <a
-                  href="https://www.xbox.com/en-US/games/store/marvels-guardians-of-the-galaxy/9pgll77c201j"
-                  target="_blank"
-                >
-                  Marvel's Guardians of the Galaxy
-                </a>
-                  .
+                  Destiny 2. Outside of gaming I am reading through the
+                  <a
+                    href="https://www.goodreads.com/book/show/21326.Fables_Vol_1"
+                    target="_blank"
+                  >
+                    Fables</a> comic series. Almost halfway through the first compendium!
+                    I will also be looking to rewrite this site as a React project in the near
+                    future...
               </p>
             </div>
           </v-row>
