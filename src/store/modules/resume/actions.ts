@@ -35,7 +35,15 @@ export const actions: ActionTree<ResumeStoreInterface, RootState> = {
               'companyName': 'AmpliFund',
               'endDate': undefined,
               'id': 4,
-              'jobDuties': [],
+              'jobDuties': [
+                'Agile team with feature-focused delivery',
+                'Part of a team of two developers working exclusively on a new feature team',
+                'Full stack project working on enhancements requested by existing and potential clients',
+                'Work closely with product managers to refine acceptance criteria and ensure clients are getting the results and functionality they expect',
+                'Work with customer service and support teams to resolve client issues/bugs as they are reported',
+                'Work autonomously, including self-guided learning',
+                'Tech stack includes: HTML5, SCSS, JavaScript, Knockout, TypeScript, .NET 4.7'
+              ],
               'startDate': new Date('2022-02-15T00:00:00'),
               'title': 'Developer II',
               'wasRemotePosition': true
