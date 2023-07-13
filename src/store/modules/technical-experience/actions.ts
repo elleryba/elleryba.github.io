@@ -29,8 +29,9 @@ export const actions: ActionTree<TechnicalExperienceStoreInterface, RootState> =
   },
   setTechnicalExperience({ commit }) {
     const data = { 
-      items: ['Working on a SaaS site for grantors and grantees to manage grant lifecycles. Work closely with product owners to plan and deliver new site functionality. Focused on delivering results to assist the company with client retention as well as signing new client contracts. Involved in all aspects of development, including backlog refinement and sprint planning.',
-        'Engineered a microservice framework within multiple domain driven apis. Full-stack project. Involved in all aspects of development. Responsible for maintaining and refining code as well as interpreting user stories to build out new features. Worked closely with testers to resolve bugs as they were reported.' 
+      items: [ 'Currently working on a custom inventory control system for third party vendors to track product inventory. Large amounts of data that require strict calculations and recurring cycle counts. Two person dev team working closely with business partners to deliver requested features to help onboard additional users.',
+        'Worked on a SaaS site for grantors and grantees to manage grant lifecycles. Worked closely with product owners to plan and deliver new site functionality. Focused on delivering results to assist the company with client retention as well as signing new client contracts. Involved in all aspects of development, including backlog refinement and sprint planning.',
+        'Part of a team that engineered a microservice framework within multiple domain driven apis for writing and binding insurance policies. Full-stack project. Involved in all aspects of development. Responsible for maintaining and refining code as well as interpreting user stories to build out new features. Worked closely with testers to resolve bugs as they were reported.' 
       ]} as TechnicalExperienceInterface
     commit(TechnicalExperienceMutations.SET_SKILLS, { items: data.items })
   }

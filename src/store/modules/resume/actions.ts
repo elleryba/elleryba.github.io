@@ -31,9 +31,24 @@ export const actions: ActionTree<ResumeStoreInterface, RootState> = {
   setResume({ commit }) {
     const data = {
       resume: [
+            {
+              'companyName': 'Agility Partners',
+              'endDate': undefined,
+              'id': 5,
+              'jobDuties': [
+                'Agile team with two developers working on an inventory control system',
+                'Work closely with business partners to spec out requested features and functionality',
+                'Present demos to business for sign off prior to release',
+                'Work autonomously, including self-guided learning',
+                'Tech stack includes: BlazorStrap, HTML/CSS, SQL, C#, .NET 6.0'
+              ],
+              'startDate': new Date('2022-11-01T00:00:00'),
+              'title': 'Application Developer',
+              'wasRemotePosition': true
+          },
           {
               'companyName': 'AmpliFund',
-              'endDate': undefined,
+              'endDate': new Date('2022-10-01T00:00:00'),
               'id': 4,
               'jobDuties': [
                 'Agile team with feature-focused delivery',

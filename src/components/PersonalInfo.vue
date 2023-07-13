@@ -14,25 +14,23 @@
           </v-row>
           <v-row class="my-2 mx-0">
             <div align="left" class="text-subtitle-3 my-2">
-              <p>I have recently completed a playthrough of the
+              <p>In my personal time I enjoy playing
                 <a
-                  href="https://www.ea.com/games/mass-effect/mass-effect-legendary-edition"
+                  href="https://powerwash-simulator.square-enix-games.com/en-us/"
                   target="_blank"
                 >
-                  Mass Effect</a> trilogy via
+                  Power Wash Simulator</a> via
                 <a
                   href="https://www.xbox.com/en-US/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0"
                   target="_blank"
                 >
-                  Xbox Game Pass</a>. I'm now taking a break from narrative games and playing 
-                  Destiny 2. Outside of gaming I am reading through the
+                  Xbox Game Pass</a>. I am currently reading through
                   <a
-                    href="https://www.goodreads.com/book/show/21326.Fables_Vol_1"
+                    href="https://www.marvel.com/comics/series/24396/the_amazing_spider-man_2018_-_2022"
                     target="_blank"
                   >
-                    Fables</a> comic series. Almost halfway through the first compendium!
-                    I will also be looking to rewrite this site as a React project in the near
-                    future...
+                    The Amazing Spider-Man</a> 2018-2022 comic series.
+                    I will also be looking to rewrite this site as a React project in the future...
               </p>
             </div>
           </v-row>
